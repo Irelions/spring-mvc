@@ -3,13 +3,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Hello World!</title>
+    <title>Cars</title>
 </head>
 <body>
+<h1>CARS</h1>
 <div>
+    <ol>
     <th:block th:each="msg : ${messages}">
-        <h1 th:text="${msg}"></h1>
+        <li th:text="${msg}"></li>
     </th:block>
+    </ol>
 </div>
 </body>
 </html>
